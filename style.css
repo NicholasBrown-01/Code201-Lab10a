@@ -1,19 +1,60 @@
 header {
-  
+  border: black;
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
   
 }
 
-header > div {
-   background-repeat: repeat;
+header div {
+  border: blue;
+  border-width: 2px;
+  border-style: solid;
+  margin-right: auto;
+}
+
+header div img {
+  border: red;
+  border-width: 2px;
+  border-style: solid;
+  width: 30px;
+  height: 30px;
   
 }
+
+ header > .headerimages {
+  display: block;
+  border: blue;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: auto;
+  
+ }
+
+header h1 {
+  font-family: 'Babylonica', cursive;
+  
+}
+
+header p {
+  font-size: 10px;
+  margin: -10px;
+}
+
+/* header > div {
+  background-image: url("img/hr-img.png");
+  background-size: auto 100%;
+  background-repeat: repeat;
+  
+  
+} */
 
 
 body {
   margin: 15px;
 }
 
-.featuredsection {
+/* .featuredsection {
 
 }
-
+ */
