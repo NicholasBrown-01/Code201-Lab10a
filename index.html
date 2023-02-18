@@ -5,69 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- GOOGLE FONTS: -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
-
   <body>
-
     <header>
-      <img src="/img/logo.png"></img>
-      <div>
-        <h1>Declicious</h1>
-        <p>THE BEST FOOD BLOG ON THE WEB.</p>
+      <div class="header">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+        <div class="main-content">
+          <h1>Delicious</h1>
+          <p>The best food blog on the web.</p>
+        </div>
+        <nav class="social-icons">
+          <ul>
+            <li><a href="img/fb-icon.png"><img src="img/fb-icon.png" alt=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href="img/twit-icon.png"><img src="img/twit-icon.png" alt=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href="img/gp-icon.png"><img src="img/gp-icon.png" alt=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href="img/insta-icon.png"><img src="img/insta-icon.png" alt=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href="img/flic-icon.png"><img src="img/flic-icon.png" alt=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href="img/pint-icon.png"><img src="img/pint-icon.png" alt=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href="img/rss-icon.png"><img src="img/rss-icon.png" alt=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href="img/mail-icon.png"><img src="img/mail-icon.png" alt=""><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </nav>
       </div>
-      <section class="headerimages">
-        <img src="img/fb-icon.png"></img>
-        <img src="img/twit-icon.png"></img>
-        <img src="img/gp-icon.png"></img>
-        <img src="img/insta-icon.png"></img>
-        <img src="img/flic-icon.png"></img>
-        <img src="img/pint-icon.png"></img>
-        <img src="img/rss-icon.png"></img>
-        <img src="img/mail-icon.png"></img>
-      </section>
     </header>
-    
-    
 
-      <section class="featuredsection">
+    <div class="page-break">
+      <img src="img/hr-img.png" alt="repeating page image for page break">
+    </div>
+
+    <main>
+      <article class="featuredsection">
         <h2>Chocolate Pizza</h2>
-        <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
-        <div class="printpic">
-          <img src="img/print-icon.png">PRINT</img>
-         </div>
-      </section>
+        <p>POSTED ON 15 DEC 2013</p>
 
-      <section class="sectiontext">
-        <img src="img/choco-pizza.png"></img>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni architecto nihil commodi ratione! Delectus voluptatum error saepe aspernatur animi ipsam voluptates reiciendis earum eum praesentium. Fugiat iusto suscipit nemo dolore?</p>
+      </article>
+      <article class="right-aligned-content">
+        <img src="img/print-icon.png" alt="Print">
+        <p>PRINT</p>
+      </article>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dolores quibusdam in libero vitae, ad mollitia nihil corrupti reprehenderit, culpa modi impedit voluptas! Nisi cupiditate earum quis facilis quaerat iusto?</p>
+      <article class="sectiontext">
+        <img src="img/choco-pizza.png" alt="Chocolate Pizza">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni architecto nihil commodi ratione! Delectus voluptatum error saepe aspernatur animi ipsam voluptates reiciendis earum eum praesentium. Fugiat iusto suscipit nemo dolore?luptatum error saepe aspernatur animi ipsam voluptates reiciendis earum eum praesentium. Fugiat iusto suscipit nemo dolore</p><br>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores debitis quod, voluptates placeat blanditiis repudiandae non sequi laudantium laborum excepturi iure tempora commodi aspernatur reprehenderit rem eos ipsam. Aliquam.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elitluptatum error saepe aspernatur animi ipsam voluptates reiciendis earum eum praesentium. Fugiat iusto suscipit nemo doloreluptatum error saepe aspernatur animi ipsam voluptates reiciendis earum eum praesentium. Fugiat iusto suscipit nemo dolore</p><br>
 
-        <img src="img."></img>
-      </section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores debitis quod, voluptates placeat blanditiis repudiandae non sequi laudantium laborum excepturi iure tempora commodi aspernatur reprehenderit rem eos ipsam. Aliquam luptatum error saepe aspernatur animi ipsam voluptates reiciendis earum eum praesentium. Fugiat iusto suscipit nemo dolore</p><br>
+        <div class="checklist-container">
+          <img src="img/list-bg.png" width="899" height="305" alt="Your Image">
+          <div class="checklist">
+            <h3>Ingredients</h3>
+            <div class="checklist-columns">
+              <ul class="column">
+                <li><input type="checkbox" id="item1"><label for="item1">Flour</label></li>
+                <li><input type="checkbox" id="item2"><label for="item2">Sugar</label></li>
+                <li><input type="checkbox" id="item3"><label for="item3">Baking Powder</label></li>
+                <li><input type="checkbox" id="item4"><label for="item4">Salt</label></li>
+                <li><input type="checkbox" id="item5"><label for="item5">Butter</label></li>
+                <li><input type="checkbox" id="item6"><label for="item6">Eggs</label></li>
+                <li><input type="checkbox" id="item7"><label for="item7">Milk</label></li>
+              </ul>
+              <ul class="column">
+                <li><input type="checkbox" id="item8"><label for="item8">Vanilla Extract</label></li>
+                <li><input type="checkbox" id="item9"><label for="item9">Cocoa Powder</label></li>
+                <li><input type="checkbox" id="item10"><label for="item10">Baking Soda</label></li>
+                <li><input type="checkbox" id="item11"><label for="item11">Brown Sugar</label></li>
+                <li><input type="checkbox" id="item12"><label for="item12">Powdered Sugar</label></li>
+                <li><input type="checkbox" id="item13"><label for="item13">Heavy Cream</label></li>
+                <li><input type="checkbox" id="item14"><label for="item14">Cream Cheese</label></li>
+              </ul>
+            </div>
+          </div>
+        </div>        
+      </article>
 
-        <section class="bottomsection">
-          <img src="img/list-bg.png"></img>
-          <img src="img/hr-img.png"></img>
-          <h3>Vanessa Stevenson</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <img src="img/van-pic.png"></img>
-        </section>
+      <div class="page-break">
+        <img src="img/hr-img.png" alt="repeating page image for page break">
+      </div>
 
+      <article class="bottomsection">
+        <h3>Vanessa Stevenson</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="img/van-pic.png" alt="Vanessa Stevenson Picture">
+      </article>
+    </main>
 
-        <footer>
-          <img src="img/small-logo.png"></img>
-          <p>Delicious @c 2013 All Rights Reserved <br>
-          Proudly published with Ghost.</p>
-        </footer>
-
+    <div class="bottom-logo-break">
+      <div class="bottom-page-break">
+        <img src="img/hr-img.png" alt="repeating page image for page break">
+      </div>
+        <img src="img/small-logo.png" alt="Small Logo">
+      <div class="bottom-page-break">
+        <img src="img/hr-img.png" alt="repeating page image for page break">
+      </div>
+    </div>
+    <footer>
+      <p>Delicious @ 2013 All Rights Reserved <br>
+      Proudly published with Ghost.</p>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>
