@@ -1,60 +1,69 @@
+body {
+  margin: 55px;
+}
+
 header {
-  border: black;
-  border-width: 2px;
-  border-style: solid;
   display: flex;
-  
+  justify-content: left;
+  align-items: center;
 }
 
 header div {
-  border: blue;
-  border-width: 2px;
-  border-style: solid;
-  margin-right: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-left: 5px;
+}
+
+header div p {
+margin-top: -15px;
+font-size: 12px;
+}
+
+header .headerimages {
+  margin-left: auto;
+  justify-content: right;
+  align-items: right;
 }
 
 header div img {
-  border: red;
-  border-width: 2px;
-  border-style: solid;
-  width: 30px;
-  height: 30px;
-  
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40px;
+  height: 45px;
+  margin-right: 10px;
 }
-
- header > .headerimages {
-  display: block;
-  border: blue;
-  border-width: 2px;
-  border-style: solid;
-  margin-left: auto;
-  
- }
 
 header h1 {
-  font-family: 'Babylonica', cursive;
-  
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
-header p {
+header .blogtext {
+  font-family: 'Montserrat', sans-serif;
   font-size: 10px;
-  margin: -10px;
+  margin: 0;
 }
 
-/* header > div {
-  background-image: url("img/hr-img.png");
-  background-size: auto 100%;
-  background-repeat: repeat;
-  
-  
-} */
-
-
-body {
-  margin: 15px;
-}
-
-/* .featuredsection {
+.featuredsection h2 {
+  font-family: 'Anton', sans-serif;
 
 }
- */
+
+.featuredsection p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  margin-top: -25px;
+  margin-bottom: -15px;
+}
+
+.printpic {
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-bottom: 25px;
+  font-size: 10px;
+  width: fit-content;
+}
